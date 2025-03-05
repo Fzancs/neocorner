@@ -1,0 +1,50 @@
+/* 🌟 Styles Globaux */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+/* 🎯 Style des Boutons */
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+/* 📌 Espacement et Titres */
+h1, h2, h3 {
+    color: #343a40;
+    margin-bottom: 15px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* 🏷️ Style des Listes */
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+.list-group-item {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* 🔍 Formulaires */
+.input-group {
+    margin-bottom: 15px;
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+}
